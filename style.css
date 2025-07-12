@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+h1 {
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+p, label, select, input, a {
+    font-size: 18px;
+    margin: 10px 0;
+    display: block;
+}
