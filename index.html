@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <h1 id="heading1"></h1>
-        <p id="paragraph1"></p>
-        <p id="paragraph2"></p>
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Lessons – FNB App Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="heading1"></h1>
+    <p id="paragraph1"></p>
+    <p id="paragraph2"></p>
 
-        <script>
-            var text1;
-            var text2;
-            var text3;
+    <h2>Other Lessons</h2>
+    <ul>
+        <li><a href="function.html">Function Lesson</a></li>
+        <li><a href="switch.html">Switch Statement</a></li>
+        <li><a href="loginform.html">Login Form</a></li>
+        <li><a href="variablescope.html">Variable Scope</a></li>
+        <li><a href="stringsandnumbers.html">String to Number</a></li>
+        <li><a href="password.html">Password Check</a></li>
+    </ul>
 
-            var numA= 7;
-            var numB= 10;
+    <script>
+        var text1;
+        var text2;
+        var text3;
 
-            text1 = "Hello everyone on planent Earth";
-            text2 = "I love learning js,";
-            text3 = " js is awsome";
-            document.getElementById("heading1").innerHTML = (text1);
-            document.getElementById("paragraph1").innerHTML = (text2 + text3);
-            document.getElementById("paragraph2").innerHTML = (numA + "x" + numB + "=" + numA * numB);
-        </script>
-    </body>
+        var numA = 7;
+        var numB = 10;
+
+        text1 = "Hello everyone on planet Earth";
+        text2 = "I love learning js,";
+        text3 = " js is awesome";
+
+        document.getElementById("heading1").innerHTML = text1;
+        document.getElementById("paragraph1").innerHTML = text2 + text3;
+        document.getElementById("paragraph2").innerHTML = numA + " x " + numB + " = " + (numA * numB);
+    </script>
+</body>
 </html>
